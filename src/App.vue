@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="vienna.go (Golang) logo" src="./assets/logo.png" class="logo-image">
+    <img alt="Vue.js Vienna logo" src="./assets/logo.png" class="logo-image">
     <StreamInfo />
   </div>
 </template>
