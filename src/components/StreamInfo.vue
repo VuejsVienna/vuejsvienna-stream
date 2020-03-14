@@ -18,7 +18,7 @@ export default {
   name: 'StreamInfo',
   data() {
     return {
-      live: true
+      live: false
     }
   }
 }
@@ -26,6 +26,6 @@ export default {
 
 <style scoped>
 a {
-  color: #00aed9;
+  color: #42b883;
 }
 </style>
