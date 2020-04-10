@@ -1,4 +1,4 @@
-# viennago-stream
+# vuejsvienna-stream
 
 ## Project setup
 ```
