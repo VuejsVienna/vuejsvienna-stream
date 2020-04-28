@@ -6,6 +6,8 @@
     </p>
     <div v-if="live">
       <a href="https://www.youtube.com/watch?v=YFi7-tibK0I" target="_blank" rel="noopener noreferrer">YouTube Live Stream</a>
+      <br />
+      <a href="https://www.twitch.tv/robchew" target="_blank" rel="noopener noreferrer">Twitch Stream</a>
     </div>
     <div v-else>. . .</div>
   </div>
@@ -16,7 +18,7 @@ export default {
   name: 'StreamInfo',
   data() {
     return {
-      live: true
+      live: false
     }
   }
 }
