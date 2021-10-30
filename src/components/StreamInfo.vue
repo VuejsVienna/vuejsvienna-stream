@@ -2,7 +2,7 @@
   <div class="stream-info">
     <h1>{{ msg }}</h1>
     <p>
-      Streaming link will be made available here shortly before meetup start:
+      Streaming link will be made available here shortly before the meetup start:
     </p>
     <div v-if="live">
       <a href="https://www.youtube.com/watch?v=pGEIkL2Sm3s" target="_blank" rel="noopener noreferrer">YouTube Live Stream</a>
@@ -18,7 +18,7 @@ export default {
   name: 'StreamInfo',
   data() {
     return {
-      live: true
+      live: false
     }
   }
 }
